@@ -95,7 +95,7 @@ echo -e -n "\x1b[\x34 q" # changes to steady underline
  if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
  else
-   export EDITOR='mvim'
+   export EDITOR='nvim'
  fi
 
 # Compilation flags
