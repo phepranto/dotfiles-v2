@@ -18,7 +18,9 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu_recent_aliases | xargs swaymsg exec --
+## set $menu dmenu | dmenu_recent_aliases | xargs swaymsg exec --
+
+set $menu wofi --show=drun --lines=5 --prompt=""
 
 ### Output configuration
 #

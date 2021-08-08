@@ -6,6 +6,9 @@ export ZSH="/home/philipp/.oh-my-zsh"
 
 export PATH=/home/philipp/.emacs.d/bin/:$PATH
 
+# Custom Exports
+export MOZ_ENABLE_WAYLAND=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
